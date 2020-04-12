@@ -1,0 +1,33 @@
+.container {
+    margin: auto;
+    width: 400px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+.tries {
+    float: right;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.green {
+    outline: 100px solid rgba(0, 255, 0, 0.5) !important;
+    outline-offset: -100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.red {
+    outline: 100px solid rgba(255, 0, 0, 0.5) !important;
+    outline-offset: -100px;
+    overflow: hidden;
+    position: relative;
+}
